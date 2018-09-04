@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textview_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="人脸检测"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/textview_hello"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+    android:id="@+id/btn_detect_face"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/imgview"
+    android:layout_centerHorizontal="true"
+    android:text="检测人脸"
+    android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btn_crop_face"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_detect_face"
+        android:layout_centerHorizontal="true"
+        android:text="裁剪人脸"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/tv_face_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="人脸信息"
+        android:textSize="16sp"
+        android:textColor="@color/textGreen"
+        android:layout_below="@id/textview_hello"/>
+
+    <ImageView
+        android:id="@+id/iv_crop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_crop_face"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
