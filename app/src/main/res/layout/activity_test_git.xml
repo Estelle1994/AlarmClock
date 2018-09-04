@@ -6,5 +6,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="测试git，后期删除"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加内容1"/>
 
 </android.support.constraint.ConstraintLayout>
