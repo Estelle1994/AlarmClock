@@ -27,6 +27,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="把dev分支推送到远程服务器上"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小伙伴把dev分支上的修改推送到远程库"/>
 
 
 </android.support.constraint.ConstraintLayout>
